@@ -1,6 +1,6 @@
 import heroBg from '../assets/hero-bg.jpg';
 import {Button} from '@/components/Button'
-import { ArrowRight, Github, Linkedin} from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { AnimatedBorderButton } from '@/components/AnimatedBorderButton';
 
 export const Hero = () => {
@@ -14,7 +14,7 @@ export const Hero = () => {
         {/*Green Dots */}
         <div className='absolute inset-0 overflow-hidden pointer-events-none'>
             {[...Array(30)].map((_,i) => (
-                <div className="absolute w-1.5 h-1.5 rounded-full opacity-60"
+                <div key={i} className="absolute w-1.5 h-1.5 rounded-full opacity-60"
                 style={{
                     backgroundColor: "#20B2A6",
                     left:`${Math.random() * 100}%`,
@@ -60,15 +60,16 @@ export const Hero = () => {
 
                     {/* Social Links */}
                     <div className='flex items-center gap-4 animate-fade-in animation-delay-400'>
-                        <span className='text-sm text'>Follow: </span>
+                        <span className='text-sm text-muted-foreground'>Follow: </span>
                         {[
-                            {icon: Github, href: "#"},
-                            {icon: Linkedin, href: "#"}
+                            //{icon: Github, href: "https://github.com/LoneWolf592"},
+                            //{icon: Linkedin, href: "#"}
                         ].map((social, idx) => (
                             <a key={idx} href={social.href}>
                               <social.icon />
                             </a>
                         ))}
+                        
                     </div>
                 </div>
                 {/*Right Column - Profile Image*/}
