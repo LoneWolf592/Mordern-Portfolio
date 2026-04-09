@@ -1,7 +1,7 @@
 import heroBg from '../assets/hero-bg.jpg';
 import profilephoto from '../assets/profile-photo.jpg';
 import {Button} from '@/components/Button'
-import { ArrowRight, ChevronDown } from 'lucide-react';
+import { ArrowRight, ChevronDown,Download } from 'lucide-react';
 import { AnimatedBorderButton } from '@/components/AnimatedBorderButton';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub,faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -74,7 +74,10 @@ export const Hero = () => {
                     {/*CTA */}
                     <div className='flex flex-wrap gap-4 animate-fade-in animation-delay'>
                         <Button size="lg">Contact Me<ArrowRight className= "w-5 h-5"/></Button>
-                        <AnimatedBorderButton/>
+                        <AnimatedBorderButton>
+                            <Download className="w-5 h-5"/>
+                            Download CV
+                        </AnimatedBorderButton>
                     </div>
 
                     {/* Social Links */}

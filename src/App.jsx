@@ -3,7 +3,7 @@ import { Hero } from "@/Sections/Hero";
 import { About } from "@/Sections/About";
 import { Projects } from "@/Sections/Projects";
 import { Experience } from "@/Sections/Experience";
-import { Testimonals } from "@/Sections/Testimonals";
+import { Testimonials } from "@/Sections/Testimonals";
 import { Contact } from "@/Sections/Contact";
 
 
@@ -15,7 +15,7 @@ function App() {
       <About />
       <Projects />
       <Experience />
-      <Testimonals />
+      <Testimonials />
       <Contact />
 
     </main>
