@@ -1,5 +1,5 @@
 import heroBg from '../assets/hero-bg.jpg';
-import profilephoto from '../assets/profile-photo.jpg';
+import profilephoto from '../assets/profile-photo.JPG';
 import {Button} from '@/components/Button'
 import { ArrowRight, ChevronDown,Download } from 'lucide-react';
 import { AnimatedBorderButton } from '@/components/AnimatedBorderButton';
