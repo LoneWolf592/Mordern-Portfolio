@@ -5,22 +5,22 @@ const highlights = [
 {
     icon: Code2,
     title:"Clean Code",
-    description:"We write clean, maintainable code that follows industry best practices and standards. Our code is well-structured, easy to read, and thoroughly documented, ensuring that it can be easily understood and maintained by other developers."
+    description:"Write maintainable, scalable code using modern best practices, ensuring long-term project growth and readability."
 },
 {
     icon: Rocket,
     title:"Fast Performance",
-    description:"Our applications are optimized for speed and efficiency, ensuring a smooth and responsive user experience. We leverage the latest technologies and best practices to deliver high-performance solutions that meet the demands of modern users."
+    description:"Optimize applications with efficient queries, API design, and frontend performance improvements."
 },
 {
     icon: Users,
     title:"User-Centric Design",
-    description:"We prioritize the needs and preferences of our users in every aspect of our design process. Our user-centric approach ensures that our applications are intuitive, accessible, and provide a seamless experience that meets the expectations of our target audience."
+    description:"Build intuitive interfaces focused on usability and accessibility for real-world users."
 },
 {
     icon: Lightbulb,
     title:"Innovative Solutions",
-    description:"We are committed to delivering innovative solutions that push the boundaries of what's possible. Our team is constantly exploring new technologies and approaches to create cutting-edge applications that solve complex problems and provide unique value to our users."
+    description:"Develop full-stack applications that solve practical business and user needs."
 }
 ];
 
@@ -32,30 +32,26 @@ export const About = () => {
             <div className="grid lg:grid-cols-2 gap-16 items-center">
                 {/*Left Column*/}
                 <div className="space-y-8">
-                    <div className="aniamte-fade-in">
+                    <div className="animate-fade-in">
                         <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">About Me</span>
                     </div>
 
-                    <h2 className="text-4xl md:text-5xl font-bold leading-tiught animate-fade-in animation-delay-100 text-secondary-foreground">
+                    <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
                         Building the Future,
                         <span className="font-serif italic font-normal text-white"> One Line of Code at a Time.</span>
                     </h2>
 
                     <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
                         <p>
-                        I'm a passionate software developer with a knack for crafting elegant and efficient solutions. With a background in computer science and years of experience in the industry, I specialize in building scalable web applications that deliver exceptional user experiences. My expertise spans across various technologies, including JavaScript, React, Node.js, and more. I thrive on solving complex problems and am always eager to learn new technologies to stay at the forefront of the ever-evolving tech landscape.
-                        </p>
+                        I'm a full-stack software developer with a strong foundation in React, TypeScript, Node.js, and modern web technologies. I recently graduated with a degree in Computer Science and gained hands-on industry experience as a Software Development Intern at ArcZen, where I built features for a real-world attendance tracking platform.</p>
                         <p>
-                        When I'm not coding, you can find me exploring the latest trends in technology, contributing to open-source projects, or sharing my knowledge through tech blogs and community events. I believe in the power of collaboration and am always looking for opportunities to connect with like-minded individuals who share my passion for innovation and excellence in software development.
-                        </p>
-                        <p>
-                        Whether it's building a new application from scratch or optimizing an existing one, I am committed to delivering high-quality solutions that exceed expectations. I am excited about the future of technology and am dedicated to being a part of shaping it through my work as a software developer.
+                        I enjoy developing scalable applications, designing clean APIs, and creating intuitive user experiences. My work focuses on building practical solutions, from full-stack web apps to real-world business platforms. I'm currently seeking entry-level full-stack opportunities where I can continue growing while contributing to meaningful products.
                         </p>
                     </div>
 
                     <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
-                        <p className="text-lg font-medium italic text-forground">
-                            "My Mission: To Craft Innovative Software Solutions that Empower Users and Drive Digital Transformation."
+                        <p className="text-lg font-medium italic text-foreground">
+                            "My mission is to build scalable, user-focused software that solves real-world problems and delivers meaningful experiences."
                         </p>
                     </div>
                 </div>

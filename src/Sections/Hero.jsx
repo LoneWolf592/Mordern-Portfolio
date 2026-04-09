@@ -23,6 +23,17 @@ const skills = [
 
 
 export const Hero = () => {
+    const handleDownloadCV = () => {
+        // Create link element and trigger download
+        const link = document.createElement('a');
+        link.href = '/HenryResume2026.docx .pdf'; // Updated to match your actual file name
+        link.download = 'Kyshawn_Henry_Resume.pdf'; // Custom download name
+        link.target = '_blank';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+
     return <section className="relative min-h-screen flex items-center overflow-hidden">
         {/*Bg */}
         <div className="absolute inset-0">
@@ -58,23 +69,23 @@ export const Hero = () => {
                     {/*Headline */}
                     <div className='space-y-4'>
                         <h1 className='text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100'>
-                           Crafting <span className='text-primary glow-text'> digital</span> 
+                           Building scalable <span className='text-primary glow-text'> full-stack</span> 
                            <br />
-                           experiences with
+                           applications
                            <br />
                            <span className=' font-serif italic font-normal text-white'>
-                            precision (Update)
+                            with real-world impact.
                            </span>
                         </h1>
                         <p className='text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200'>
-                            Hi, I'm Kyshawn Henry - a FullStack Software Developer specializing in React, Typescript, Node.js.(Update)
+                           Hi, I'm Kyshawn Henry — a Full-Stack Software Developer specializing in React, TypeScript, Node.js, and PostgreSQL. I build scalable, user-focused applications and enjoy turning real-world problems into clean, efficient solutions.
                         </p>
                     </div>
 
                     {/*CTA */}
                     <div className='flex flex-wrap gap-4 animate-fade-in animation-delay'>
                         <Button size="lg">Contact Me<ArrowRight className= "w-5 h-5"/></Button>
-                        <AnimatedBorderButton>
+                        <AnimatedBorderButton onClick={handleDownloadCV}>
                             <Download className="w-5 h-5"/>
                             Download CV
                         </AnimatedBorderButton>
