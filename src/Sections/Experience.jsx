@@ -1,19 +1,19 @@
 const experiences = [
     {
+        period: "Jun 2025 - Aug 2025",
+        company: "ArcZen",
+        role: "Software Development Intern",
+        description: "Developed full-stack features for ArcAttend using React, TypeScript, Node.js, Express, Prisma, and PostgreSQL, integrating class management with attendance tracking while improving scalability and performance.",
+        technologies: ["React", "TypeScript", "Node.js", "Express", "Prisma", "PostgreSQL"],
+        current: false,
+    },
+    {
         period: "Jul 2023 - Present",
         company: "Wegmans Food Markets",
         role: "Ecommerce Shopper",
         description: "Efficiently fulfill online grocery orders, ensuring accuracy and quality while maintaining a high level of customer satisfaction in a fast-paced environment.",
         technologies: [],
         current: true,
-    },
-    {
-        period: "Jun 2025 - August 2025",
-        company: "ArcZen",
-        role: "Software Development Intern",
-        description: "Developed full-stack features for ArcAttend using React, TypeScript, Node.js, Express, Prisma, and PostgreSQL, integrating class management with attendance tracking while improving scalability and performance.",
-        technologies: ["React", "TypeScript", "Node.js", "Express", "Prisma", "PostgreSQL"],
-        current: false,
     }];
 
 export const Experience = () => {

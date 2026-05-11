@@ -5,12 +5,12 @@ import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 
 const projects = [
     {
-        title: "Project 1",
-        description: "Description of project 1",
-        image: "path/to/image1.jpg",
-        tags: ["React", "JavaScript"],
-        link: "#",
-        github: "#"
+        title: "ClearBudget",
+        description: "A full-stack personal finance app for tracking income and expenses with visual spending breakdowns and an integrated AI assistant powered by Claude for real-time financial guidance.",
+        image: "/clearbudget-preview.png",
+        tags: ["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Prisma", "Tailwind CSS", "Recharts", "Claude AI"],
+        link: "https://budget-tracker-376p.vercel.app/dashboard",
+        github: "https://github.com/LoneWolf592/budget_tracker"
     }
 ];
 
@@ -41,10 +41,10 @@ export const Projects = () => {
                         {/*Image */}
                         <div className="relative overflow-hidden aspect-video">
                             <img src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"/>
-                            <div className="absolute inset-0 bg-gradient-to-t from card via-card/50 to-transparent opacity-60"/>
+                            <div className="absolute inset-0 bg-gradient-to-t from-card via-card/50 to-transparent opacity-60"/>
 
                             {/*Overlay Links*/}
-                            <div className="absolute inset-0 flex -items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                 <a href={project.link} className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all">
                                     <ArrowUpRight className="w-5 h-5"/>
                                     </a>
@@ -55,14 +55,14 @@ export const Projects = () => {
                         </div>
                         {/*Content */}
                         <div className="p-6 space-y-4">
-                            <div className="flex items-start jusify-between">
+                            <div className="flex items-start justify-between">
                                 <h3 className="text-xl font-semibold group-hover:text-priamry transition-colors">{project.title}</h3>
                                 <ArrowUpRight className="w-5 h-5
                                 text-muted-foreground group-hover:text-primary
                                 group-hover:translate-x-1
                                 group-hover:-translate-y-1 transition-all"/>  
                             </div>
-                            <p className="muted-foreground text-sm">{project.description}</p>
+                            <p className="text-muted-foreground text-sm">{project.description}</p>
                             <div className="flex flex-wrap gap-2"> 
                                 {project.tags.map((tag, tagIdx) => (
                                     <span key={tagIdx} 
