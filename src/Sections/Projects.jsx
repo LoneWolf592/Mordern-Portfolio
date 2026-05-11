@@ -7,7 +7,7 @@ const projects = [
     {
         title: "ClearBudget",
         description: "A full-stack personal finance app for tracking income and expenses with visual spending breakdowns and an integrated AI assistant powered by Claude for real-time financial guidance.",
-        image: "/clearbudget-preview.png",
+        image: "/clearbudget.png",
         tags: ["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Prisma", "Tailwind CSS", "Recharts", "Claude AI"],
         link: "https://budget-tracker-376p.vercel.app/dashboard",
         github: "https://github.com/LoneWolf592/budget_tracker"
