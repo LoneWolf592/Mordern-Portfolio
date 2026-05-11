@@ -26,7 +26,7 @@ export const Hero = () => {
     const handleDownloadCV = () => {
         // Create link element and trigger download
         const link = document.createElement('a');
-        link.href = '/HenryResume2026.docx .pdf'; // Updated to match your actual file name
+        link.href = '/HenryResume2026.pdf'; // Updated to match your actual file name
         link.download = 'Kyshawn_Henry_Resume.pdf'; // Custom download name
         link.target = '_blank';
         document.body.appendChild(link);
@@ -84,7 +84,7 @@ export const Hero = () => {
 
                     {/*CTA */}
                     <div className='flex flex-wrap gap-4 animate-fade-in animation-delay'>
-                        <Button size="lg">Contact Me<ArrowRight className= "w-5 h-5"/></Button>
+                        <Button size="lg" onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}>Contact Me<ArrowRight className= "w-5 h-5"/></Button>
                         <AnimatedBorderButton onClick={handleDownloadCV}>
                             <Download className="w-5 h-5"/>
                             Download CV
