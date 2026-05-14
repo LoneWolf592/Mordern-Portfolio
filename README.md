@@ -1,16 +1,54 @@
-# React + Vite
+# Kyshawn Henry — Portfolio Website 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website showcasing my projects, skills, and experience as a fullstack developer.
 
-Currently, two official plugins are available:
+🔗 **Live Site:** [kyshawnhenry.com](https://kyshawnhenry.com)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This is my personal developer portfolio built with React and Vite. It highlights my work as a recent Computer Systems graduate from CUNY City Tech, including fullstack projects, internship experience, and technical skills.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Featured Projects
+
+- **[ClearBudget](https://budget-tracker-376p.vercel.app)** — AI-powered personal budget tracker built with React, TypeScript, Node.js, PostgreSQL, and the Claude AI API
+- **[FreeCycle App](https://github.com/LoneWolf592)** — Community platform for sustainable item exchange built with React, Node.js/Express, and PostgreSQL
+
+---
+
+## Tech Stack
+
+- **React** + **Vite**
+- **JavaScript**
+- **CSS**
+- Deployed on **Vercel** with custom domain via Namecheap
+
+---
+
+## Running Locally
+
+```bash
+# Clone the repo
+git clone https://github.com/LoneWolf592/Mordern-Portfolio.git
+cd Mordern-Portfolio
+
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+```
+
+Open `http://localhost:5173` in your browser.
+
+---
+
+## Contact
+
+- 🌐 [kyshawnhenry.com](https://kyshawnhenry.com)
+- 💼 [linkedin.com/in/kyshawn-henry](https://linkedin.com/in/kyshawn-henry)
+- 🐙 [github.com/LoneWolf592](https://github.com/LoneWolf592)
+- 📧 kyshawnhenry9@gmail.com
